@@ -1,3 +1,12 @@
+---
+title: OversightArena
+emoji: 🔍
+colorFrom: blue
+colorTo: green
+sdk: docker
+pinned: false
+app_port: 8000
+---
 # OversightArena
 
 An OpenEnv-compliant RL environment for the **Meta PyTorch OpenEnv Hackathon**.
