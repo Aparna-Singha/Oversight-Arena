@@ -1,0 +1,101 @@
+name: OversightArena
+version: "1.0.0"
+description: >
+  An RL environment where an LLM oversight agent reviews worker AI answers
+  about structured JSON records and flags errors (wrong_value, wrong_inference,
+  omission). Trains accurate, calibrated oversight behaviour.
+
+base_url: http://localhost:8000
+
+endpoints:
+  reset:
+    method: POST
+    path: /reset
+    request_schema:
+      type: object
+      properties:
+        seed:
+          type: integer
+          nullable: true
+    response_schema: OversightObservation
+
+  step:
+    method: POST
+    path: /step
+    request_schema:
+      type: object
+      required: [episode_id, action]
+      properties:
+        episode_id:
+          type: string
+        action:
+          $ref: "#/schemas/OversightAction"
+    response_schema: StepResponse
+
+  observation_space:
+    method: GET
+    path: /observation_space
+
+  action_space:
+    method: GET
+    path: /action_space
+
+  health:
+    method: GET
+    path: /health
+
+schemas:
+  OversightObservation:
+    type: object
+    properties:
+      source_json: { type: object }
+      questions: { type: array, items: { type: string } }
+      worker_answers: { type: array, items: { type: string } }
+      step_number: { type: integer }
+      flags_used: { type: integer }
+      flags_remaining: { type: integer }
+      episode_id: { type: string }
+      done: { type: boolean }
+      message: { type: string }
+
+  OversightAction:
+    type: object
+    required: [action_type, question_id, reasoning, confidence]
+    properties:
+      action_type:
+        type: string
+        enum: [approve, flag]
+      question_id:
+        type: integer
+      error_type:
+        type: string
+        enum: [wrong_value, wrong_inference, omission]
+        nullable: true
+      reasoning:
+        type: string
+      confidence:
+        type: number
+        minimum: 0.0
+        maximum: 1.0
+
+reward:
+  range: [-2.0, 2.0]
+  true_positive: 2.0
+  true_negative: 1.0
+  false_positive: -1.0
+  false_negative: -2.0
+  budget_exceeded: -0.5
+
+episode:
+  steps_per_episode: 5
+  flag_budget: 3
+  termination: all_questions_reviewed
+
+task_types:
+  - employee_record
+  - product_record
+
+error_types:
+  - wrong_value
+  - wrong_inference
+  - omission

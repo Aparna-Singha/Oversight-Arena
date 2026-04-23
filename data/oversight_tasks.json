@@ -1,0 +1,4190 @@
+{
+  "easy": [
+    {
+      "task_id": "ba4cb972-5a2c-472e-9654-388fa3179076",
+      "domain": "financials",
+      "difficulty": "easy",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "Horizon Analytics",
+        "quarter": "Q3 2023",
+        "revenue_millions": 249.9,
+        "cost_millions": 115.6,
+        "gross_margin_pct": 53.7,
+        "headcount": 723,
+        "revenue_per_employee": 345.6,
+        "yoy_growth_pct": -3.1,
+        "operating_expenses_millions": 28.7,
+        "net_profit_millions": 105.6
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is Horizon Analytics's revenue for Q3 2023 in millions?",
+          "answer": "$350.1M",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "$249.9M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "53.7%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "53.7%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "723",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "723",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$345.6K",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$345.6K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$105.6M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$105.6M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "396d94d2-64a9-46a9-845f-04df1aee9246",
+      "domain": "financials",
+      "difficulty": "easy",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "Keystone Ventures",
+        "quarter": "Q4 2023",
+        "revenue_millions": 357.3,
+        "cost_millions": 235.5,
+        "gross_margin_pct": 34.1,
+        "headcount": 4115,
+        "revenue_per_employee": 86.8,
+        "yoy_growth_pct": -14.9,
+        "operating_expenses_millions": 44.9,
+        "net_profit_millions": 76.9
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is Keystone Ventures's revenue for Q4 2023 in millions?",
+          "answer": "$357.3M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$357.3M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "34.1%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "34.1%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "6457.9",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "4115",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$86.8K",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$86.8K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$76.9M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$76.9M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        2
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "2c3bcc23-949c-4384-ab55-229b595d4db6",
+      "domain": "financials",
+      "difficulty": "easy",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "Frontier Labs",
+        "quarter": "Q4 2024",
+        "revenue_millions": 67.1,
+        "cost_millions": 33.2,
+        "gross_margin_pct": 50.5,
+        "headcount": 606,
+        "revenue_per_employee": 110.7,
+        "yoy_growth_pct": 2.9,
+        "operating_expenses_millions": 6.2,
+        "net_profit_millions": 27.7
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is Frontier Labs's revenue for Q4 2024 in millions?",
+          "answer": "$67.1M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$67.1M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "50.5%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "50.5%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "928.5",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "606",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$110.7K",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$110.7K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$27.7M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$27.7M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        2
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "e3550cf9-6746-4ca7-be72-5946b54cfe74",
+      "domain": "financials",
+      "difficulty": "easy",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "DeltaWave Inc",
+        "quarter": "Q3 2023",
+        "revenue_millions": 210.9,
+        "cost_millions": 110.2,
+        "gross_margin_pct": 47.7,
+        "headcount": 3952,
+        "revenue_per_employee": 53.4,
+        "yoy_growth_pct": -14.6,
+        "operating_expenses_millions": 44.9,
+        "net_profit_millions": 55.8
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is DeltaWave Inc's revenue for Q3 2023 in millions?",
+          "answer": "$309.8M",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "$210.9M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "47.7%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "47.7%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "3952",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "3952",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$53.4K",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$53.4K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$55.8M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$55.8M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "2ff2f838-90f7-4126-8dc7-4345c472a925",
+      "domain": "financials",
+      "difficulty": "easy",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "DeltaWave Inc",
+        "quarter": "Q2 2024",
+        "revenue_millions": 356.8,
+        "cost_millions": 144.3,
+        "gross_margin_pct": 59.6,
+        "headcount": 544,
+        "revenue_per_employee": 655.9,
+        "yoy_growth_pct": 14.3,
+        "operating_expenses_millions": 57.7,
+        "net_profit_millions": 154.8
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is DeltaWave Inc's revenue for Q2 2024 in millions?",
+          "answer": "$194.3M",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "$356.8M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "59.6%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "59.6%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "544",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "544",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$655.9K",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$655.9K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$154.8M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$154.8M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "c835aa20-2fda-4cc5-9ccf-f8d1e25213be",
+      "domain": "medical",
+      "difficulty": "easy",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-52612",
+        "age": 32,
+        "diagnosis": "GERD",
+        "medication_name": "Metformin",
+        "dosage_mg": 500,
+        "frequency_per_day": 4,
+        "duration_days": 60,
+        "blood_pressure_systolic": 167,
+        "blood_pressure_diastolic": 90,
+        "weight_kg": 87.7,
+        "height_cm": 162,
+        "bmi": 33.4
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "13.9",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "32",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "33.4",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "33.4",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Metformin",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Metformin",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Metformin?",
+          "answer": "500mg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "500mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "167/90 mmHg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "167/90 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "3c8061f4-2f98-46cf-9149-a478af276a12",
+      "domain": "medical",
+      "difficulty": "easy",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-80956",
+        "age": 54,
+        "diagnosis": "Atrial Fibrillation",
+        "medication_name": "Atorvastatin",
+        "dosage_mg": 10,
+        "frequency_per_day": 3,
+        "duration_days": 14,
+        "blood_pressure_systolic": 135,
+        "blood_pressure_diastolic": 81,
+        "weight_kg": 54.0,
+        "height_cm": 170,
+        "bmi": 18.7
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "54",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "54",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "18.7",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "18.7",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Atorvastatin",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Atorvastatin",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Atorvastatin?",
+          "answer": "5mg",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "10mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "135/81 mmHg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "135/81 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        3
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "cdbfebd9-e7fa-4733-b94b-9d4153ff3cf9",
+      "domain": "medical",
+      "difficulty": "easy",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-75595",
+        "age": 68,
+        "diagnosis": "Migraine",
+        "medication_name": "Levothyroxine",
+        "dosage_mg": 75,
+        "frequency_per_day": 4,
+        "duration_days": 90,
+        "blood_pressure_systolic": 164,
+        "blood_pressure_diastolic": 83,
+        "weight_kg": 101.8,
+        "height_cm": 157,
+        "bmi": 41.3
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "68",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "68",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "41.3",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "41.3",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Levothyroxine",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Levothyroxine",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Levothyroxine?",
+          "answer": "75mg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "75mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "260/83 mmHg",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "164/83 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        4
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "0a251e7b-4324-4df8-865f-b8fdefec2542",
+      "domain": "medical",
+      "difficulty": "easy",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-26030",
+        "age": 61,
+        "diagnosis": "Type 2 Diabetes",
+        "medication_name": "Atorvastatin",
+        "dosage_mg": 10,
+        "frequency_per_day": 2,
+        "duration_days": 7,
+        "blood_pressure_systolic": 121,
+        "blood_pressure_diastolic": 67,
+        "weight_kg": 80.9,
+        "height_cm": 164,
+        "bmi": 30.1
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "61",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "61",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "30.1",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "30.1",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Atorvastatin",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Atorvastatin",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Atorvastatin?",
+          "answer": "10mg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "10mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "63/67 mmHg",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "121/67 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        4
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "ae208e76-ff09-4d0a-b974-e7eb5551b447",
+      "domain": "medical",
+      "difficulty": "easy",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-61250",
+        "age": 19,
+        "diagnosis": "Hypertension",
+        "medication_name": "Amitriptyline",
+        "dosage_mg": 50,
+        "frequency_per_day": 4,
+        "duration_days": 7,
+        "blood_pressure_systolic": 115,
+        "blood_pressure_diastolic": 83,
+        "weight_kg": 72.1,
+        "height_cm": 160,
+        "bmi": 28.2
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "19",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "19",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "28.2",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "28.2",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Amitriptyline",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Amitriptyline",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Amitriptyline?",
+          "answer": "72mg",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "50mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "115/83 mmHg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "115/83 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        3
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "192a0060-39c3-416e-b572-2e4c4fe5cce2",
+      "domain": "inventory",
+      "difficulty": "easy",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Lithium AA Batteries (4-pack)",
+        "warehouse_id": "WH-CHI-03",
+        "quantity_units": 5078,
+        "unit_price_usd": 190.67,
+        "total_value_usd": 968222.26,
+        "reorder_point": 272,
+        "days_until_expiry": 716,
+        "storage_temp_celsius": 15,
+        "supplier_name": "LocalGoods LLC",
+        "last_restocked_date": "2024-08-23"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "5078",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "5078",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$968,222.26",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$968,222.26",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$190.67",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$190.67",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "406.3",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "716",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "272",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "272",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        3
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "f74c9eb4-9c0e-4bc1-b13f-788382eea589",
+      "domain": "inventory",
+      "difficulty": "easy",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Hand Sanitizer 500ml",
+        "warehouse_id": "WH-NYC-01",
+        "quantity_units": 1393,
+        "unit_price_usd": 14.66,
+        "total_value_usd": 20421.38,
+        "reorder_point": 354,
+        "days_until_expiry": 102,
+        "storage_temp_celsius": 25,
+        "supplier_name": "LocalGoods LLC",
+        "last_restocked_date": "2024-09-06"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "1970.1",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "1393",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$20,421.38",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$20,421.38",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$14.66",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$14.66",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "102",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "102",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "354",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "354",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "afc9b5ea-e056-4544-a4cf-ca8ef3ec72c2",
+      "domain": "inventory",
+      "difficulty": "easy",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Hand Sanitizer 500ml",
+        "warehouse_id": "WH-NYC-01",
+        "quantity_units": 5867,
+        "unit_price_usd": 223.11,
+        "total_value_usd": 1308986.37,
+        "reorder_point": 90,
+        "days_until_expiry": 254,
+        "storage_temp_celsius": 25,
+        "supplier_name": "NordVend Ltd",
+        "last_restocked_date": "2024-08-26"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "5867",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "5867",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$1,308,986.37",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$1,308,986.37",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$93.79",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "$223.11",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "254",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "254",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "90",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "90",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        2
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "7d270276-92bc-4d69-8bc0-9e83a3fdaa65",
+      "domain": "inventory",
+      "difficulty": "easy",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Stainless Steel Water Bottle (750ml)",
+        "warehouse_id": "WH-LAX-02",
+        "quantity_units": 4323,
+        "unit_price_usd": 119.21,
+        "total_value_usd": 515344.83,
+        "reorder_point": 89,
+        "days_until_expiry": 216,
+        "storage_temp_celsius": 15,
+        "supplier_name": "NordVend Ltd",
+        "last_restocked_date": "2024-01-26"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "4323",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "4323",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$515,344.83",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$515,344.83",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$119.21",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$119.21",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "312.5",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "216",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "89",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "89",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        3
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "f34c124a-b8cb-4c7a-8aaf-d4ac04aa7f4d",
+      "domain": "inventory",
+      "difficulty": "easy",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Vitamin D3 Softgels (90ct)",
+        "warehouse_id": "WH-LAX-02",
+        "quantity_units": 2466,
+        "unit_price_usd": 112.64,
+        "total_value_usd": 277770.24,
+        "reorder_point": 326,
+        "days_until_expiry": 675,
+        "storage_temp_celsius": 20,
+        "supplier_name": "AsiaSrc International",
+        "last_restocked_date": "2024-01-08"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "2466",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "2466",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$277,770.24",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$277,770.24",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$112.64",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$112.64",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "675",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "675",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "478.2",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "326",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        4
+      ],
+      "num_errors": 1
+    }
+  ],
+  "medium": [
+    {
+      "task_id": "892edb1b-fed0-44dd-b6fc-ee264a007d25",
+      "domain": "financials",
+      "difficulty": "medium",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "Jupiter Group",
+        "quarter": "Q4 2024",
+        "revenue_millions": 264.4,
+        "cost_millions": 165.8,
+        "gross_margin_pct": 37.3,
+        "headcount": 4242,
+        "revenue_per_employee": 62.3,
+        "yoy_growth_pct": 11.4,
+        "operating_expenses_millions": 60.7,
+        "net_profit_millions": 37.9
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is Jupiter Group's revenue for Q4 2024 in millions?",
+          "answer": "$264.4M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$264.4M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "37.3%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "37.3%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "3897.4",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "4242",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$62.3K",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$62.3K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$37.9M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$37.9M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        2
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "7969f36f-a2d0-4693-8aee-b6746c0c4abc",
+      "domain": "financials",
+      "difficulty": "medium",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "BlueStar Corp",
+        "quarter": "Q4 2023",
+        "revenue_millions": 136.0,
+        "cost_millions": 98.4,
+        "gross_margin_pct": 27.6,
+        "headcount": 1756,
+        "revenue_per_employee": 77.4,
+        "yoy_growth_pct": 20.2,
+        "operating_expenses_millions": 32.3,
+        "net_profit_millions": 5.3
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is BlueStar Corp's revenue for Q4 2023 in millions?",
+          "answer": "$121.3M",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "$136.0M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "27.6%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "27.6%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "1756",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "1756",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$77.4K",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$77.4K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$5.3M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$5.3M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "0423157c-154c-4d8a-b47e-a7642fc1a98e",
+      "domain": "financials",
+      "difficulty": "medium",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "Frontier Labs",
+        "quarter": "Q3 2024",
+        "revenue_millions": 242.7,
+        "cost_millions": 162.7,
+        "gross_margin_pct": 33.0,
+        "headcount": 3035,
+        "revenue_per_employee": 80.0,
+        "yoy_growth_pct": -14.3,
+        "operating_expenses_millions": 35.8,
+        "net_profit_millions": 44.2
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is Frontier Labs's revenue for Q3 2024 in millions?",
+          "answer": "$266.6M",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "$242.7M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "33.0%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "33.0%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "3035",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "3035",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$80.0K",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$80.0K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$44.2M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$44.2M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "653e0042-cd18-4e9f-a3dd-796f9bff199d",
+      "domain": "financials",
+      "difficulty": "medium",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "Horizon Analytics",
+        "quarter": "Q1 2024",
+        "revenue_millions": 139.7,
+        "cost_millions": 71.0,
+        "gross_margin_pct": 49.2,
+        "headcount": 778,
+        "revenue_per_employee": 179.6,
+        "yoy_growth_pct": 10.9,
+        "operating_expenses_millions": 13.4,
+        "net_profit_millions": 55.3
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is Horizon Analytics's revenue for Q1 2024 in millions?",
+          "answer": "$139.7M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$139.7M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "49.2%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "49.2%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "687.4",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "778",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$179.6K",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$179.6K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$55.3M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$55.3M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        2
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "53f11dd4-f293-4d8e-88a4-edbc2c846bfa",
+      "domain": "financials",
+      "difficulty": "medium",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "DeltaWave Inc",
+        "quarter": "Q1 2023",
+        "revenue_millions": 384.5,
+        "cost_millions": 265.1,
+        "gross_margin_pct": 31.1,
+        "headcount": 4652,
+        "revenue_per_employee": 82.7,
+        "yoy_growth_pct": 3.3,
+        "operating_expenses_millions": 32.9,
+        "net_profit_millions": 86.5
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is DeltaWave Inc's revenue for Q1 2023 in millions?",
+          "answer": "$384.5M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$384.5M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "31.1%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "31.1%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "5226.3",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "4652",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$82.7K",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$82.7K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$86.5M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$86.5M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        2
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "5376f89b-9c71-4f86-a612-ae09f1cb9859",
+      "domain": "medical",
+      "difficulty": "medium",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-78573",
+        "age": 77,
+        "diagnosis": "GERD",
+        "medication_name": "Amitriptyline",
+        "dosage_mg": 10,
+        "frequency_per_day": 4,
+        "duration_days": 30,
+        "blood_pressure_systolic": 142,
+        "blood_pressure_diastolic": 69,
+        "weight_kg": 52.1,
+        "height_cm": 166,
+        "bmi": 18.9
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "77",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "77",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "18.9",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "18.9",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Amitriptyline",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Amitriptyline",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Amitriptyline?",
+          "answer": "9mg",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "10mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "142/69 mmHg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "142/69 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        3
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "3865dbf8-8df5-49ef-a174-ec3ff46dfde5",
+      "domain": "medical",
+      "difficulty": "medium",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-88242",
+        "age": 18,
+        "diagnosis": "Type 2 Diabetes",
+        "medication_name": "Amitriptyline",
+        "dosage_mg": 25,
+        "frequency_per_day": 3,
+        "duration_days": 14,
+        "blood_pressure_systolic": 143,
+        "blood_pressure_diastolic": 92,
+        "weight_kg": 78.6,
+        "height_cm": 166,
+        "bmi": 28.5
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "18",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "18",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "28.5",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "28.5",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Amitriptyline",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Amitriptyline",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Amitriptyline?",
+          "answer": "23mg",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "25mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "143/92 mmHg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "143/92 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        3
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "e532e699-3a8a-457a-80f5-df6b5a19f393",
+      "domain": "medical",
+      "difficulty": "medium",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-85861",
+        "age": 72,
+        "diagnosis": "Hyperlipidemia",
+        "medication_name": "Metformin",
+        "dosage_mg": 2000,
+        "frequency_per_day": 2,
+        "duration_days": 7,
+        "blood_pressure_systolic": 145,
+        "blood_pressure_diastolic": 66,
+        "weight_kg": 84.6,
+        "height_cm": 152,
+        "bmi": 36.6
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "62.5",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "72",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "36.6",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "36.6",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Metformin",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Metformin",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Metformin?",
+          "answer": "2000mg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "2000mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "145/66 mmHg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "145/66 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "32ed9c48-061b-499a-a5dd-600c54017783",
+      "domain": "medical",
+      "difficulty": "medium",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-18734",
+        "age": 57,
+        "diagnosis": "Chronic Back Pain",
+        "medication_name": "Warfarin",
+        "dosage_mg": 2,
+        "frequency_per_day": 3,
+        "duration_days": 30,
+        "blood_pressure_systolic": 167,
+        "blood_pressure_diastolic": 103,
+        "weight_kg": 104.5,
+        "height_cm": 199,
+        "bmi": 26.4
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "52.4",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "57",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "26.4",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "26.4",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Warfarin",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Warfarin",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Warfarin?",
+          "answer": "2mg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "2mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "167/103 mmHg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "167/103 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "89957adc-5cfb-4086-a150-95f19fff9b54",
+      "domain": "medical",
+      "difficulty": "medium",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-32591",
+        "age": 86,
+        "diagnosis": "Osteoarthritis",
+        "medication_name": "Amitriptyline",
+        "dosage_mg": 25,
+        "frequency_per_day": 2,
+        "duration_days": 30,
+        "blood_pressure_systolic": 152,
+        "blood_pressure_diastolic": 103,
+        "weight_kg": 95.2,
+        "height_cm": 196,
+        "bmi": 24.8
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "77.3",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "86",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "24.8",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "24.8",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Amitriptyline",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Amitriptyline",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Amitriptyline?",
+          "answer": "25mg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "25mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "152/103 mmHg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "152/103 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "5df62e9a-8adc-48dc-9a6c-96d6a6aaabf2",
+      "domain": "inventory",
+      "difficulty": "medium",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Surgical Face Masks (50ct)",
+        "warehouse_id": "WH-CHI-03",
+        "quantity_units": 7847,
+        "unit_price_usd": 154.52,
+        "total_value_usd": 1212518.44,
+        "reorder_point": 375,
+        "days_until_expiry": 165,
+        "storage_temp_celsius": 20,
+        "supplier_name": "NordVend Ltd",
+        "last_restocked_date": "2024-01-08"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "8975.0",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "7847",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$1,212,518.44",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$1,212,518.44",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$154.52",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$154.52",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "165",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "165",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "375",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "375",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "85229e84-d4a9-401a-ae2e-502d3cc67c9a",
+      "domain": "inventory",
+      "difficulty": "medium",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Stainless Steel Water Bottle (750ml)",
+        "warehouse_id": "WH-LAX-02",
+        "quantity_units": 6352,
+        "unit_price_usd": 207.14,
+        "total_value_usd": 1315753.28,
+        "reorder_point": 104,
+        "days_until_expiry": 592,
+        "storage_temp_celsius": 20,
+        "supplier_name": "NordVend Ltd",
+        "last_restocked_date": "2024-07-04"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "6352",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "6352",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$1,315,753.28",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$1,315,753.28",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$207.14",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$207.14",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "592",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "592",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "89.7",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "104",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        4
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "b8f2a36d-f4e9-478d-9142-16816a75a7f6",
+      "domain": "inventory",
+      "difficulty": "medium",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Vitamin D3 Softgels (90ct)",
+        "warehouse_id": "WH-CHI-03",
+        "quantity_units": 7743,
+        "unit_price_usd": 189.11,
+        "total_value_usd": 1464278.73,
+        "reorder_point": 35,
+        "days_until_expiry": 501,
+        "storage_temp_celsius": -20,
+        "supplier_name": "SupplyCo Global",
+        "last_restocked_date": "2024-12-31"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "8864.3",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "7743",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$1,464,278.73",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$1,464,278.73",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$189.11",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$189.11",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "501",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "501",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "35",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "35",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "06099b5f-ddd0-42e5-94e5-4c8d0899a513",
+      "domain": "inventory",
+      "difficulty": "medium",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Lithium AA Batteries (4-pack)",
+        "warehouse_id": "WH-DAL-04",
+        "quantity_units": 1730,
+        "unit_price_usd": 51.26,
+        "total_value_usd": 88679.8,
+        "reorder_point": 415,
+        "days_until_expiry": 260,
+        "storage_temp_celsius": 25,
+        "supplier_name": "NordVend Ltd",
+        "last_restocked_date": "2024-09-25"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "1730",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "1730",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$88,679.80",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$88,679.80",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$51.26",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$51.26",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "260",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "260",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "366.3",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "415",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        4
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "39489e64-689b-4889-84f9-3699f43c7f75",
+      "domain": "inventory",
+      "difficulty": "medium",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Organic Whole Milk (1L)",
+        "warehouse_id": "WH-CHI-03",
+        "quantity_units": 5872,
+        "unit_price_usd": 183.12,
+        "total_value_usd": 1075280.64,
+        "reorder_point": 327,
+        "days_until_expiry": 219,
+        "storage_temp_celsius": -5,
+        "supplier_name": "SupplyCo Global",
+        "last_restocked_date": "2024-10-20"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "5205.1",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "5872",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$1,075,280.64",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$1,075,280.64",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$183.12",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$183.12",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "219",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "219",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "327",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "327",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    }
+  ],
+  "hard": [
+    {
+      "task_id": "ab2f85fa-9440-4a7a-93bf-7571e5351011",
+      "domain": "financials",
+      "difficulty": "hard",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "DeltaWave Inc",
+        "quarter": "Q3 2024",
+        "revenue_millions": 418.7,
+        "cost_millions": 252.3,
+        "gross_margin_pct": 39.7,
+        "headcount": 2881,
+        "revenue_per_employee": 145.3,
+        "yoy_growth_pct": 36.2,
+        "operating_expenses_millions": 102.3,
+        "net_profit_millions": 64.1
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is DeltaWave Inc's revenue for Q3 2024 in millions?",
+          "answer": "$418.7M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$418.7M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "39.7%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "39.7%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "2881",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "2881",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$164.5K",
+          "has_error": true,
+          "error_type": "wrong_inference",
+          "correct_answer": "$145.3K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$64.1M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$64.1M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        3
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "f6c58416-df24-4ee6-950f-a47817899aa2",
+      "domain": "financials",
+      "difficulty": "hard",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "Iris Solutions",
+        "quarter": "Q3 2024",
+        "revenue_millions": 162.2,
+        "cost_millions": 113.5,
+        "gross_margin_pct": 30.0,
+        "headcount": 4488,
+        "revenue_per_employee": 36.1,
+        "yoy_growth_pct": 32.5,
+        "operating_expenses_millions": 28.5,
+        "net_profit_millions": 20.2
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is Iris Solutions's revenue for Q3 2024 in millions?",
+          "answer": "$162.2M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$162.2M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "30.0%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "30.0%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "4488",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "4488",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$40.0K",
+          "has_error": true,
+          "error_type": "wrong_inference",
+          "correct_answer": "$36.1K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$20.2M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$20.2M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        3
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "e4ed08b3-c7ce-4a36-be81-3d4928aac772",
+      "domain": "financials",
+      "difficulty": "hard",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "Horizon Analytics",
+        "quarter": "Q1 2024",
+        "revenue_millions": 400.8,
+        "cost_millions": 267.4,
+        "gross_margin_pct": 33.3,
+        "headcount": 1830,
+        "revenue_per_employee": 219.0,
+        "yoy_growth_pct": -14.7,
+        "operating_expenses_millions": 57.8,
+        "net_profit_millions": 75.6
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is Horizon Analytics's revenue for Q1 2024 in millions?",
+          "answer": "$400.8M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$400.8M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "41.5%",
+          "has_error": true,
+          "error_type": "wrong_inference",
+          "correct_answer": "33.3%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "1830",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "1830",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$219.0K",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$219.0K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$75.6M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$75.6M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        1
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "7c3c6d4a-7e7b-488e-9dba-6417c2b054b2",
+      "domain": "financials",
+      "difficulty": "hard",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "Frontier Labs",
+        "quarter": "Q4 2023",
+        "revenue_millions": 431.2,
+        "cost_millions": 185.5,
+        "gross_margin_pct": 57.0,
+        "headcount": 4908,
+        "revenue_per_employee": 87.9,
+        "yoy_growth_pct": -7.8,
+        "operating_expenses_millions": 68.4,
+        "net_profit_millions": 177.3
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is Frontier Labs's revenue for Q4 2023 in millions?",
+          "answer": "$431.2M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$431.2M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "62.1%",
+          "has_error": true,
+          "error_type": "wrong_inference",
+          "correct_answer": "57.0%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "4908",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "4908",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$87.9K",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$87.9K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$177.3M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$177.3M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        1
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "c95650b2-1c89-4ebf-8209-aa6f286d65e3",
+      "domain": "financials",
+      "difficulty": "hard",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "Jupiter Group",
+        "quarter": "Q2 2023",
+        "revenue_millions": 411.5,
+        "cost_millions": 268.4,
+        "gross_margin_pct": 34.8,
+        "headcount": 145,
+        "revenue_per_employee": 2837.9,
+        "yoy_growth_pct": -12.0,
+        "operating_expenses_millions": 51.1,
+        "net_profit_millions": 92.0
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is Jupiter Group's revenue for Q2 2023 in millions?",
+          "answer": "$411.5M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$411.5M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "24.6%",
+          "has_error": true,
+          "error_type": "wrong_inference",
+          "correct_answer": "34.8%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "145",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "145",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$2837.9K",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$2837.9K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$92.0M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$92.0M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        1
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "6c54efd0-ddf5-4948-96b1-0c6cccaf51a3",
+      "domain": "medical",
+      "difficulty": "hard",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-37428",
+        "age": 54,
+        "diagnosis": "Atrial Fibrillation",
+        "medication_name": "Warfarin",
+        "dosage_mg": 1,
+        "frequency_per_day": 4,
+        "duration_days": 7,
+        "blood_pressure_systolic": 176,
+        "blood_pressure_diastolic": 85,
+        "weight_kg": 68.8,
+        "height_cm": 196,
+        "bmi": 17.9
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "54",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "54",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "17.9",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "17.9",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Warfarin",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Warfarin",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Warfarin?",
+          "answer": "No data available.",
+          "has_error": true,
+          "error_type": "omission",
+          "correct_answer": "1mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "176/85 mmHg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "176/85 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        3
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "891b9fc0-5f38-463f-aeb1-7d3834fc431f",
+      "domain": "medical",
+      "difficulty": "hard",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-16186",
+        "age": 67,
+        "diagnosis": "GERD",
+        "medication_name": "Warfarin",
+        "dosage_mg": 1,
+        "frequency_per_day": 3,
+        "duration_days": 7,
+        "blood_pressure_systolic": 103,
+        "blood_pressure_diastolic": 90,
+        "weight_kg": 51.6,
+        "height_cm": 187,
+        "bmi": 14.8
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "67",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "67",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "14.8",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "14.8",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Warfarin",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Warfarin",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Warfarin?",
+          "answer": "No data available.",
+          "has_error": true,
+          "error_type": "omission",
+          "correct_answer": "1mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "103/90 mmHg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "103/90 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        3
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "47539674-0440-441c-9e19-a42d51fa242e",
+      "domain": "medical",
+      "difficulty": "hard",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-29465",
+        "age": 55,
+        "diagnosis": "Hypothyroidism",
+        "medication_name": "Ibuprofen",
+        "dosage_mg": 800,
+        "frequency_per_day": 1,
+        "duration_days": 90,
+        "blood_pressure_systolic": 117,
+        "blood_pressure_diastolic": 71,
+        "weight_kg": 58.5,
+        "height_cm": 190,
+        "bmi": 16.2
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "55",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "55",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "16.2",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "16.2",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Ibuprofen",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Ibuprofen",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Ibuprofen?",
+          "answer": "800mg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "800mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "104/71 mmHg",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "117/71 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        4
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "f85c2bba-303c-455c-8cee-5682998a9b9f",
+      "domain": "medical",
+      "difficulty": "hard",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-68599",
+        "age": 54,
+        "diagnosis": "Hypothyroidism",
+        "medication_name": "Atorvastatin",
+        "dosage_mg": 40,
+        "frequency_per_day": 4,
+        "duration_days": 30,
+        "blood_pressure_systolic": 151,
+        "blood_pressure_diastolic": 62,
+        "weight_kg": 84.8,
+        "height_cm": 200,
+        "bmi": 21.2
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "54",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "54",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "21.2",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "21.2",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Atorvastatin",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Atorvastatin",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Atorvastatin?",
+          "answer": "45mg",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "40mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "151/62 mmHg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "151/62 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        3
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "0fd6654f-d17e-4b70-b4c5-c9cc259a78f8",
+      "domain": "medical",
+      "difficulty": "hard",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-14399",
+        "age": 74,
+        "diagnosis": "Type 2 Diabetes",
+        "medication_name": "Levothyroxine",
+        "dosage_mg": 100,
+        "frequency_per_day": 3,
+        "duration_days": 90,
+        "blood_pressure_systolic": 144,
+        "blood_pressure_diastolic": 110,
+        "weight_kg": 85.0,
+        "height_cm": 176,
+        "bmi": 27.4
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "74",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "74",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "30.3",
+          "has_error": true,
+          "error_type": "wrong_inference",
+          "correct_answer": "27.4",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Levothyroxine",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Levothyroxine",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Levothyroxine?",
+          "answer": "100mg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "100mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "144/110 mmHg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "144/110 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        1
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "ea5211d7-a5cb-44b2-8060-fa461f0e34cf",
+      "domain": "inventory",
+      "difficulty": "hard",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Microfiber Cleaning Cloths (12ct)",
+        "warehouse_id": "WH-NYC-01",
+        "quantity_units": 130,
+        "unit_price_usd": 220.2,
+        "total_value_usd": 28626.0,
+        "reorder_point": 20,
+        "days_until_expiry": 455,
+        "storage_temp_celsius": -5,
+        "supplier_name": "LocalGoods LLC",
+        "last_restocked_date": "2024-02-08"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "141.3",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "130",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$28,626.00",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$28,626.00",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$220.20",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$220.20",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "455",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "455",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "20",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "20",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "a5270ea9-cd4f-4b77-b59e-3410faa2b0da",
+      "domain": "inventory",
+      "difficulty": "hard",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Microfiber Cleaning Cloths (12ct)",
+        "warehouse_id": "WH-NYC-01",
+        "quantity_units": 2758,
+        "unit_price_usd": 30.99,
+        "total_value_usd": 85470.42,
+        "reorder_point": 452,
+        "days_until_expiry": 638,
+        "storage_temp_celsius": -5,
+        "supplier_name": "SupplyCo Global",
+        "last_restocked_date": "2024-12-13"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "2525.1",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "2758",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$85,470.42",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$85,470.42",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$30.99",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$30.99",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "638",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "638",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "452",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "452",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "38b83024-fb4c-4370-bd4b-bba3c11e9478",
+      "domain": "inventory",
+      "difficulty": "hard",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Organic Whole Milk (1L)",
+        "warehouse_id": "WH-DAL-04",
+        "quantity_units": 9064,
+        "unit_price_usd": 93.04,
+        "total_value_usd": 843314.56,
+        "reorder_point": 306,
+        "days_until_expiry": 208,
+        "storage_temp_celsius": 4,
+        "supplier_name": "SupplyCo Global",
+        "last_restocked_date": "2024-04-07"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "9064",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "9064",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$843,314.56",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$843,314.56",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$93.04",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$93.04",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "208",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "208",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "348.4",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "306",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        4
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "5680c087-1098-406c-a6df-0499f20c6deb",
+      "domain": "inventory",
+      "difficulty": "hard",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Surgical Face Masks (50ct)",
+        "warehouse_id": "WH-CHI-03",
+        "quantity_units": 4912,
+        "unit_price_usd": 215.55,
+        "total_value_usd": 1058781.6,
+        "reorder_point": 478,
+        "days_until_expiry": 417,
+        "storage_temp_celsius": 4,
+        "supplier_name": "SupplyCo Global",
+        "last_restocked_date": "2024-11-22"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "4912",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "4912",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$1,058,781.60",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$1,058,781.60",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$191.85",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "$215.55",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "417",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "417",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "478",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "478",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        2
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "f3fb8790-d19a-457b-817c-1eb69156dff9",
+      "domain": "inventory",
+      "difficulty": "hard",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Hand Sanitizer 500ml",
+        "warehouse_id": "WH-LAX-02",
+        "quantity_units": 832,
+        "unit_price_usd": 53.86,
+        "total_value_usd": 44811.52,
+        "reorder_point": 232,
+        "days_until_expiry": 636,
+        "storage_temp_celsius": 15,
+        "supplier_name": "NordVend Ltd",
+        "last_restocked_date": "2024-10-06"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "832",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "832",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$44,811.52",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$44,811.52",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$53.86",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$53.86",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "581.5",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "636",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "232",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "232",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        3
+      ],
+      "num_errors": 1
+    }
+  ],
+  "expert": [
+    {
+      "task_id": "3cab6255-94b8-449f-8e42-1dde8bbcc63f",
+      "domain": "financials",
+      "difficulty": "expert",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "Citadel Systems",
+        "quarter": "Q4 2024",
+        "revenue_millions": 135.2,
+        "cost_millions": 56.2,
+        "gross_margin_pct": 58.4,
+        "headcount": 130,
+        "revenue_per_employee": 1040.0,
+        "yoy_growth_pct": 10.2,
+        "operating_expenses_millions": 11.1,
+        "net_profit_millions": 67.9
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is Citadel Systems's revenue for Q4 2024 in millions?",
+          "answer": "$146.9M",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "$135.2M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "58.4%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "58.4%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "130.0",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "130",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$1040.0K",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$1040.0K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$67.90M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$67.9M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "cba87cde-0bb7-4229-874b-4a5cc93ee6da",
+      "domain": "financials",
+      "difficulty": "expert",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "LunarTech LLC",
+        "quarter": "Q4 2023",
+        "revenue_millions": 274.1,
+        "cost_millions": 136.9,
+        "gross_margin_pct": 50.1,
+        "headcount": 3186,
+        "revenue_per_employee": 86.0,
+        "yoy_growth_pct": -11.1,
+        "operating_expenses_millions": 28.6,
+        "net_profit_millions": 108.6
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is LunarTech LLC's revenue for Q4 2023 in millions?",
+          "answer": "$304.9M",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "$274.1M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "50.1%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "50.1%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "3186.0",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "3186",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$86000.0",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$86.0K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$108.6M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$108.6M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "fcd5a914-cdfd-4d9f-9d00-a46eb71dba2c",
+      "domain": "financials",
+      "difficulty": "expert",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "Jupiter Group",
+        "quarter": "Q3 2023",
+        "revenue_millions": 147.4,
+        "cost_millions": 107.1,
+        "gross_margin_pct": 27.3,
+        "headcount": 1301,
+        "revenue_per_employee": 113.3,
+        "yoy_growth_pct": 17.8,
+        "operating_expenses_millions": 31.8,
+        "net_profit_millions": 8.5
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is Jupiter Group's revenue for Q3 2023 in millions?",
+          "answer": "$147.4M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$147.4M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "27.30%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "27.3%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "1456.6",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "1301",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$113300.0",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$113.3K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$8.5M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$8.5M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        2
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "2f4cfc2f-2e33-45bf-ab60-08a22c0c43a3",
+      "domain": "financials",
+      "difficulty": "expert",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "LunarTech LLC",
+        "quarter": "Q4 2024",
+        "revenue_millions": 19.5,
+        "cost_millions": 8.4,
+        "gross_margin_pct": 56.9,
+        "headcount": 1664,
+        "revenue_per_employee": 11.7,
+        "yoy_growth_pct": -5.4,
+        "operating_expenses_millions": 3.8,
+        "net_profit_millions": 7.3
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is LunarTech LLC's revenue for Q4 2024 in millions?",
+          "answer": "$21.3M",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "$19.5M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "56.9%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "56.9%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "1664.0",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "1664",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$11700.0",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$11.7K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$7.3M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$7.3M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "730d3941-23f6-4866-a06a-0ef2677c278c",
+      "domain": "financials",
+      "difficulty": "expert",
+      "source_json": {
+        "record_type": "financials",
+        "company_name": "Echo Dynamics",
+        "quarter": "Q1 2024",
+        "revenue_millions": 438.2,
+        "cost_millions": 243.8,
+        "gross_margin_pct": 44.4,
+        "headcount": 682,
+        "revenue_per_employee": 642.5,
+        "yoy_growth_pct": 30.2,
+        "operating_expenses_millions": 56.1,
+        "net_profit_millions": 138.3
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is Echo Dynamics's revenue for Q1 2024 in millions?",
+          "answer": "$438.20M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$438.2M",
+          "relevant_field": "revenue_millions"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the gross margin percentage?",
+          "answer": "44.4%",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "44.4%",
+          "relevant_field": "gross_margin_pct"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the total headcount?",
+          "answer": "596.9",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "682",
+          "relevant_field": "headcount"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the revenue per employee in thousands of USD?",
+          "answer": "$642.5K",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$642.5K",
+          "relevant_field": "revenue_per_employee"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the net profit for this quarter in millions?",
+          "answer": "$138.30M",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$138.3M",
+          "relevant_field": "net_profit_millions"
+        }
+      ],
+      "error_indices": [
+        2
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "f8fdf46b-8b66-4343-a8ac-242c76fb607c",
+      "domain": "medical",
+      "difficulty": "expert",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-90537",
+        "age": 63,
+        "diagnosis": "Chronic Back Pain",
+        "medication_name": "Amitriptyline",
+        "dosage_mg": 50,
+        "frequency_per_day": 4,
+        "duration_days": 90,
+        "blood_pressure_systolic": 108,
+        "blood_pressure_diastolic": 61,
+        "weight_kg": 102.6,
+        "height_cm": 168,
+        "bmi": 36.4
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "63.0",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "63",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "36.4",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "36.4",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Amitriptyline",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Amitriptyline",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Amitriptyline?",
+          "answer": "50 mg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "50mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "120/61 mmHg",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "108/61 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        4
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "86946bd7-ecc9-4ceb-8062-247c02919cd6",
+      "domain": "medical",
+      "difficulty": "expert",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-76982",
+        "age": 19,
+        "diagnosis": "Atrial Fibrillation",
+        "medication_name": "Albuterol",
+        "dosage_mg": 90,
+        "frequency_per_day": 3,
+        "duration_days": 7,
+        "blood_pressure_systolic": 130,
+        "blood_pressure_diastolic": 97,
+        "weight_kg": 119.7,
+        "height_cm": 192,
+        "bmi": 32.5
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "19.0",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "19",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "32.50",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "32.5",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Albuterol",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Albuterol",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Albuterol?",
+          "answer": "83mg",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "90mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "130/97 mmHg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "130/97 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        3
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "d24b1496-56b7-424b-9eaa-ad9a552ba802",
+      "domain": "medical",
+      "difficulty": "expert",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-77551",
+        "age": 67,
+        "diagnosis": "Osteoarthritis",
+        "medication_name": "Omeprazole",
+        "dosage_mg": 20,
+        "frequency_per_day": 3,
+        "duration_days": 60,
+        "blood_pressure_systolic": 177,
+        "blood_pressure_diastolic": 63,
+        "weight_kg": 109.0,
+        "height_cm": 158,
+        "bmi": 43.7
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "67.0",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "67",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "43.70",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "43.7",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Omeprazole",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Omeprazole",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Omeprazole?",
+          "answer": "18mg",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "20mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "177/63 mmHg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "177/63 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        3
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "41bab644-8d95-41c0-aa67-36e2952bafce",
+      "domain": "medical",
+      "difficulty": "expert",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-12002",
+        "age": 40,
+        "diagnosis": "Osteoarthritis",
+        "medication_name": "Ibuprofen",
+        "dosage_mg": 200,
+        "frequency_per_day": 4,
+        "duration_days": 7,
+        "blood_pressure_systolic": 150,
+        "blood_pressure_diastolic": 84,
+        "weight_kg": 96.1,
+        "height_cm": 183,
+        "bmi": 28.7
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "35.0",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "40",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "28.70",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "28.7",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Ibuprofen",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Ibuprofen",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Ibuprofen?",
+          "answer": "200 mg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "200mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "150/84 mmHg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "150/84 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "5ba43159-5107-48b3-b222-4ba57f404f18",
+      "domain": "medical",
+      "difficulty": "expert",
+      "source_json": {
+        "record_type": "medical",
+        "patient_id": "PAT-81499",
+        "age": 29,
+        "diagnosis": "Osteoarthritis",
+        "medication_name": "Levothyroxine",
+        "dosage_mg": 125,
+        "frequency_per_day": 1,
+        "duration_days": 30,
+        "blood_pressure_systolic": 141,
+        "blood_pressure_diastolic": 75,
+        "weight_kg": 114.8,
+        "height_cm": 182,
+        "bmi": 34.7
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "What is the patient's age?",
+          "answer": "29.0",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "29",
+          "relevant_field": "age"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the patient's BMI?",
+          "answer": "34.70",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "34.7",
+          "relevant_field": "bmi"
+        },
+        {
+          "question_id": 2,
+          "question": "What medication has been prescribed?",
+          "answer": "Levothyroxine",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "Levothyroxine",
+          "relevant_field": "medication_name"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the prescribed dosage of Levothyroxine?",
+          "answer": "125mg",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "125mg",
+          "relevant_field": "dosage_mg"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the patient's blood pressure reading?",
+          "answer": "158/75 mmHg",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "141/75 mmHg",
+          "relevant_field": "blood_pressure_systolic"
+        }
+      ],
+      "error_indices": [
+        4
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "a04f621e-41e9-4267-a47c-4145d1ff5047",
+      "domain": "inventory",
+      "difficulty": "expert",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Hand Sanitizer 500ml",
+        "warehouse_id": "WH-CHI-03",
+        "quantity_units": 8706,
+        "unit_price_usd": 155.59,
+        "total_value_usd": 1354566.54,
+        "reorder_point": 264,
+        "days_until_expiry": 336,
+        "storage_temp_celsius": 4,
+        "supplier_name": "LocalGoods LLC",
+        "last_restocked_date": "2024-04-05"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "8706",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "8706",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "USD 1354566.54",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$1,354,566.54",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$142.33",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "$155.59",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "336.0",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "336",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "264",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "264",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        2
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "41cc46e4-69e9-456f-8fcd-0ba4e963a276",
+      "domain": "inventory",
+      "difficulty": "expert",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Hand Sanitizer 500ml",
+        "warehouse_id": "WH-DAL-04",
+        "quantity_units": 4151,
+        "unit_price_usd": 27.33,
+        "total_value_usd": 113446.83,
+        "reorder_point": 441,
+        "days_until_expiry": 228,
+        "storage_temp_celsius": 4,
+        "supplier_name": "NordVend Ltd",
+        "last_restocked_date": "2024-09-11"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "4151",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "4151",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$113,446.83",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$113,446.83",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "USD 27.33",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$27.33",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "228.0",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "228",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "495.7",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "441",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        4
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "92b8f94d-1997-4877-93ce-aba336118344",
+      "domain": "inventory",
+      "difficulty": "expert",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Surgical Face Masks (50ct)",
+        "warehouse_id": "WH-DAL-04",
+        "quantity_units": 100,
+        "unit_price_usd": 240.35,
+        "total_value_usd": 24035.0,
+        "reorder_point": 272,
+        "days_until_expiry": 379,
+        "storage_temp_celsius": -5,
+        "supplier_name": "PrimeSource Corp",
+        "last_restocked_date": "2024-08-12"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "100.0",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "100",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$24,035.00",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$24,035.00",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "USD 240.35",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$240.35",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "322.6",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "379",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "272",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "272",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        3
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "2426a115-d9a0-4765-98ac-55c4e8d6f524",
+      "domain": "inventory",
+      "difficulty": "expert",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Hand Sanitizer 500ml",
+        "warehouse_id": "WH-CHI-03",
+        "quantity_units": 117,
+        "unit_price_usd": 55.58,
+        "total_value_usd": 6502.86,
+        "reorder_point": 119,
+        "days_until_expiry": 110,
+        "storage_temp_celsius": 20,
+        "supplier_name": "SupplyCo Global",
+        "last_restocked_date": "2024-07-18"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "117.0",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "117",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$6,502.86",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$6,502.86",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "$63.07",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "$55.58",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "110.0",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "110",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "119",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "119",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        2
+      ],
+      "num_errors": 1
+    },
+    {
+      "task_id": "93ff9c54-2b16-4c79-9174-f04b855596f9",
+      "domain": "inventory",
+      "difficulty": "expert",
+      "source_json": {
+        "record_type": "inventory",
+        "product_name": "Vitamin D3 Softgels (90ct)",
+        "warehouse_id": "WH-DAL-04",
+        "quantity_units": 9925,
+        "unit_price_usd": 107.73,
+        "total_value_usd": 1069220.25,
+        "reorder_point": 456,
+        "days_until_expiry": 169,
+        "storage_temp_celsius": 4,
+        "supplier_name": "AsiaSrc International",
+        "last_restocked_date": "2024-03-22"
+      },
+      "worker_answers": [
+        {
+          "question_id": 0,
+          "question": "How many units of the product are currently in stock?",
+          "answer": "11044.9",
+          "has_error": true,
+          "error_type": "wrong_value",
+          "correct_answer": "9925",
+          "relevant_field": "quantity_units"
+        },
+        {
+          "question_id": 1,
+          "question": "What is the total inventory value for this product?",
+          "answer": "$1,069,220.25",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$1,069,220.25",
+          "relevant_field": "total_value_usd"
+        },
+        {
+          "question_id": 2,
+          "question": "What is the unit price?",
+          "answer": "USD 107.73",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "$107.73",
+          "relevant_field": "unit_price_usd"
+        },
+        {
+          "question_id": 3,
+          "question": "How many days until this product expires?",
+          "answer": "169.0",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "169",
+          "relevant_field": "days_until_expiry"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the reorder point for this product?",
+          "answer": "456",
+          "has_error": false,
+          "error_type": null,
+          "correct_answer": "456",
+          "relevant_field": "reorder_point"
+        }
+      ],
+      "error_indices": [
+        0
+      ],
+      "num_errors": 1
+    }
+  ]
+}
