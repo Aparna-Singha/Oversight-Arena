@@ -29,7 +29,7 @@ FLAG_BUDGET = 5
 _TASKS_PATH = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
     "data",
-    "oversight_tasks.json",
+    "oversight_tasks.json"
 )
 
 
