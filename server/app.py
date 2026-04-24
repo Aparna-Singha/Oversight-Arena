@@ -20,11 +20,14 @@ env = OversightEnvironment()
 
 class ResetRequest(BaseModel):
     task_id: str = "easy"
+    episode_id: str | None = None
 
 class ResetResponse(BaseModel):
     observation: OversightObservation
+    episode_id: str
 
 class StepRequest(BaseModel):
+    episode_id: str
     action: OversightAction
 
 class StepResponse(BaseModel):
@@ -59,24 +62,17 @@ def get_tasks():
 @app.post("/reset", response_model=ResetResponse)
 def reset(request: ResetRequest) -> ResetResponse:
     try:
-        obs = env.reset(task_id=request.task_id)
+        obs = env.reset(task_id=request.task_id, episode_id=request.episode_id)
     except ValueError as exc:
         raise HTTPException(status_code=422, detail=str(exc))
-    return ResetResponse(observation=obs)
+    return ResetResponse(observation=obs, episode_id=obs.episode_id)
 
 @app.post("/step", response_model=StepResponse)
 def step(request: StepRequest) -> StepResponse:
     try:
-        result = env.step(request.action)
-        # Handle both tuple return (obs, reward) and single obs return
-        if isinstance(result, tuple):
-            obs, reward = result
-        else:
-            obs = result
-            decisions = env._state.get("agent_decisions", []) if env._state else []
-            reward = decisions[-1]["reward"] if decisions else 0.0
+        obs, reward = env.step(request.action, request.episode_id)
     except ValueError as exc:
-        raise HTTPException(status_code=422, detail=str(exc))
+        raise HTTPException(status_code=400, detail=str(exc))
     except Exception as exc:
         raise HTTPException(status_code=500, detail=str(exc))
     return StepResponse(observation=obs, reward=reward, done=obs.done)

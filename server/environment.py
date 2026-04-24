@@ -27,7 +27,7 @@ except ImportError:
 FLAG_BUDGET = 5
 
 _TASKS_PATH = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)),
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
     "data",
     "oversight_tasks.json",
 )
@@ -45,43 +45,45 @@ def _reconstruct_worker_answers(raw: list[dict[str, Any]]) -> list[WorkerAnswer]
 class OversightEnvironment:
     def __init__(self) -> None:
         self._tasks: dict[str, list[dict[str, Any]]] = _load_tasks(_TASKS_PATH)
-        self._state: EpisodeState | None = None
+        self._episodes: dict[str, EpisodeState] = {}
         self._rng = random.Random()
 
     # ------------------------------------------------------------------
     # OpenEnv interface
     # ------------------------------------------------------------------
 
-    def reset(self, task_id: str = "easy") -> OversightObservation:
+    def reset(self, task_id: str = "easy", episode_id: str | None = None) -> OversightObservation:
         if task_id not in self._tasks:
             raise ValueError(
                 f"Unknown difficulty: {task_id!r}. "
                 f"Choose from {list(self._tasks)}"
             )
 
+        if episode_id is None:
+            episode_id = str(uuid.uuid4())
+
         task = self._rng.choice(self._tasks[task_id])
         worker_answers = _reconstruct_worker_answers(task["worker_answers"])
-        episode_id = str(uuid.uuid4())
 
-        self._state = make_episode_state(
+        state = make_episode_state(
             episode_id=episode_id,
             task_id=task_id,
             source_json=task["source_json"],
             worker_answers=worker_answers,
         )
+        self._episodes[episode_id] = state
 
-        return self._build_observation(done=False)
+        return self._build_observation(state, done=False)
 
-    def step(self, action: OversightAction) -> tuple[OversightObservation, float]:
-        if self._state is None:
-            raise ValueError("No active episode â€” call reset() first.")
+    def step(self, action: OversightAction, episode_id: str) -> tuple[OversightObservation, float]:
+        state = self._episodes.get(episode_id)
+        if state is None:
+            raise ValueError(f"Unknown episode_id: {episode_id!r}")
 
         if action.question_id < 0 or action.question_id > 4:
             raise ValueError(
-                f"question_id must be 0â€“4, got {action.question_id}"
+                f"question_id must be 0-4, got {action.question_id}"
             )
-
-        state = self._state
 
         if action.action_type == "flag":
             state["flags_used"] += 1
@@ -107,7 +109,10 @@ class OversightEnvironment:
         flags_remaining = FLAG_BUDGET - state["flags_used"]
         done = (state["step_number"] >= 5) or (flags_remaining <= 0)
 
-        return self._build_observation(done=done), reward
+        if done:
+            del self._episodes[episode_id]
+
+        return self._build_observation(state, done=done), reward
 
     def get_observation_space(self) -> dict[str, Any]:
         return {
@@ -130,7 +135,7 @@ class OversightEnvironment:
             "type": "object",
             "fields": {
                 "action_type": "Literal['approve', 'flag']",
-                "question_id": "int (0â€“4)",
+                "question_id": "int (0-4)",
                 "error_type": "Optional[Literal['wrong_value','wrong_inference','omission']]",
                 "reasoning": "str",
                 "confidence": "float [0.0, 1.0]",
@@ -141,8 +146,7 @@ class OversightEnvironment:
     # Internal helpers
     # ------------------------------------------------------------------
 
-    def _build_observation(self, done: bool) -> OversightObservation:
-        state = self._state
+    def _build_observation(self, state: EpisodeState, done: bool) -> OversightObservation:
         answers: list[WorkerAnswer] = state["worker_answers"]
         flags_used = state["flags_used"]
         step = state["step_number"]
